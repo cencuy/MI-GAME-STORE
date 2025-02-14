@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkblue;
+    text-align: center; /* Pusatkan seluruh konten */
+}
+
+.form-container {
+    width: 600px; /* Sesuaikan lebar sesuai kebutuhan */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Gaya tambahan untuk elemen-elemen lainnya (opsional) */
+table {
+    width: 100%;
+}
+
+/* ... gaya lainnya untuk label, input, tombol, dll. */
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #3e8e41;
+}
